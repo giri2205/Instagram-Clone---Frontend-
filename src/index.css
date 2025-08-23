@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.app {
+  display: grid;
+  grid-template-columns: 240px 1fr 300px;
+  gap: 20px;
+  padding: 20px;
+}
+.sidebar {
+  border-right: 1px solid #ddd;
+}
+.feed {
+  max-width: 600px;
+}
+.suggestions {
+  border-left: 1px solid #ddd;
+  padding-left: 20px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  margin: 8px 0;
+}
+.post img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.post .rounded-circle {
+  border: 1px solid #ddd;
+}
+
+.post .bi {
+  cursor: pointer;
+}
