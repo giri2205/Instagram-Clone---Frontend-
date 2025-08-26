@@ -2,7 +2,7 @@
 function Sidebar() {
   return (
     <div className="d-flex flex-column p-3 border-end" style={{ width: "250px", height: "100vh" }}>
-      <img className="d-block"src="src\assets\Instagram_Text.png"></img>
+      <img className="d-block" src="src\assets\Instagram_Text.png"></img>
       <ul className="nav nav-pills flex-column mb-auto">
         <li className="nav-item mb-2">
           <a href="#" className="nav-link text-dark d-flex align-items-center">
@@ -62,3 +62,4 @@ function Sidebar() {
 export default Sidebar;
 
  
+
